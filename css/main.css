@@ -20,7 +20,7 @@
 }
 
 .header {
-  margin-top: 100px;
+  margin-top: 40px;
 }
 .header .header__title {
   padding: 45px 182px 62px;
@@ -37,4 +37,43 @@
   font-size: 48px;
   font-weight: 800;
   line-height: 60px;
+}
+
+.block__item {
+  display: flex;
+  gap: 58px;
+  justify-content: center;
+  margin-top: 103px;
+  margin-bottom: 50px;
+}
+.block__item .block h3 {
+  color: #1F2428;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 36px;
+  margin-top: 40px;
+  margin-bottom: 7px;
+}
+.block__item .block h4 {
+  color: #1F2428;
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 36px;
+  margin-bottom: 22px;
+}
+.block__item .block button {
+  border-radius: 8px;
+  background: #41B7E9;
+  padding: 18px 0;
+  width: 180px;
+  border: none;
+  color: #FFF;
+  text-align: center;
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 18px;
+  transition: 0.5s all ease;
+}
+.block__item .block button:hover {
+  background-color: #4F83C5;
 }/*# sourceMappingURL=main.css.map */
